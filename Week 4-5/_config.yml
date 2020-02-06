@@ -1,0 +1,17 @@
+title:              Week 4-5 Jekyll!
+email:              jpuptagrafft@lcmail.lcsc.edu
+description:        Learning Jekyll one mistake at a time!
+author:             James Uptagrafft
+url:                "https://blackrockdigital.github.io"
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

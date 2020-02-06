@@ -1,0 +1,19 @@
+---
+layout: page
+title: Cats
+description: cats.
+background: 'https://placekitten.com/888/400'
+---
+
+<div class="home">
+    <h1 class="page heading">Cats</h1>
+    <p>If my blog were a collection of cats instead of posts,
+        I'd have {{site.posts.size}} cats.
+    </p>
+    <ul>
+    {% for cat in site.data.cats %}
+        <img src = "{{cat.picture}}"><br/>
+        <li>{{cat.name}}, {{cat.gender}}, {{cat.age}} years old.</li>
+    {% endfor %}
+    </ul>
+</div>
